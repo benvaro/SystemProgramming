@@ -19,10 +19,10 @@ namespace _04_ThreadTimer
 
             TimerCallback timerCallback = new TimerCallback(ShowInfo);
             // #1
-            //Timer timer = new Timer(timerCallback);
-            //timer.Change(1000, 1000);
+            Timer timer = new Timer(timerCallback);
+            timer.Change(1000, 1000);
 
-            Timer timer = new Timer(/*new TimerCallback(ShowInfo)*/PrintTime, null, 1000, 1000);
+            //  Timer timer = new Timer(/*new TimerCallback(ShowInfo)*/PrintTime, null, 1000, 1000);
 
             //  Thread.Sleep(2000);  // 2
             // ShowInfo();

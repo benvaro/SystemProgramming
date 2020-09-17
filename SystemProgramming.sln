@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_ThreadPause", "07_Thread
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Join", "08_Join\08_Join.csproj", "{F22D7FAF-3B97-4374-8370-549EB5434E9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_TheadPool", "09_TheadPool\09_TheadPool.csproj", "{B9C75AB4-AAFC-4384-B8FD-105A6A82908F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{F22D7FAF-3B97-4374-8370-549EB5434E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F22D7FAF-3B97-4374-8370-549EB5434E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F22D7FAF-3B97-4374-8370-549EB5434E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C75AB4-AAFC-4384-B8FD-105A6A82908F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C75AB4-AAFC-4384-B8FD-105A6A82908F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C75AB4-AAFC-4384-B8FD-105A6A82908F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C75AB4-AAFC-4384-B8FD-105A6A82908F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
