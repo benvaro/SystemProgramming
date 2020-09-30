@@ -24,7 +24,7 @@ namespace _17_Task01
             //       {
             //           f *= i;
             //       }
-
+            
             //       Thread.Sleep(3000);
             //       Console.WriteLine("Factorial: {0}", f);
             //   }, 2);
